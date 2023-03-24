@@ -27,5 +27,5 @@ jobs:
      run: |
       echo "HOME: ${HOME}"
       echo "GITHUB_WORKFLOW: ${GITHUB_WORKFLOW}"
-      echo "GITHUB_ACTOR": ${GITHUB_ACTOR}"
+      echo "GITHUB_ACTOR: ${GITHUB_ACTOR}"
      shell: bash
