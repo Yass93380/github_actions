@@ -7,8 +7,8 @@ jobs:
    matrix:
     os: [ubuntu-latest, ubuntu-20.04, ubuntu-18.04]
   steps:
-   - name: echoooo a string
-     run: echo "Hello World"
+   - name: echo a string
+     run: echoooo "Hello World"
    - name: multiline script
      run: |
       python3 -V
