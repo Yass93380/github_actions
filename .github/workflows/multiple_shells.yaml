@@ -20,7 +20,7 @@ jobs:
   steps:
    - name: current directory with powershell
      run: Get-Location
-   - name: current directory with bash
+   - name: current directory with bash cmd
      run: pwd
      shell: bash
    - name: print some default env variables
